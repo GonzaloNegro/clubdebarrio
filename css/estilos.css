@@ -1,2 +1,16 @@
+/* map-get($color, c1); trae el color negro*/
+/*
+.box{
+    @include sizes(500px, 200px)
+}
+*/
 * {
   margin: 0 auto; }
+
+.texto {
+  width: 500px;
+  height: 200px;
+  margin: 0 auto;
+  background-color: #c49602; }
+  .texto h1 {
+    font-size: 18px; }

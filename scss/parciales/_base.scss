@@ -2,10 +2,11 @@
     margin: 0 auto;
 }
 
-/* body{
-    background-color: map-get($color, c1);
-} */
-
 .texto{
-    font-size: $grande;
+    @include sizes(500px, 200px);
+    margin: 0 auto;
+    background-color: map-get($color, c2);
+    h1{
+        font-size: map-get($font, chica);
+    }
 }

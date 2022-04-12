@@ -1,24 +1,23 @@
-/* $font:(
+$font:(
     centro: center,
     grande: 30px,
     mediana: 24px,
     chica: 18px
-); */
+);
 
-$grande: 24px;
 
-/* $color:(
+ $color:(
     c1: black,
-    c2: rgba(199, 152, 0, .0),
+    c2: rgb(196, 150, 2),
     c3: white
-); */
+); 
 
 /* map-get($color, c1); trae el color negro*/
 
-/* @mixin sizes($width, $height){
+@mixin sizes($width, $height){
     width: $width;
     height: $height;
-} */
+}
 
 /*
 .box{
