@@ -1,0 +1,83 @@
+.servicios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.titulo{
+    padding: 10px;
+    font-size: map-get($font, grande);
+    text-align: map-get($font, cent);
+    color: map-get($color, c2);
+    text-shadow: 0 0 1px rgba(0, 0, 0, .5);
+    font-family: 'PT Serif', serif;
+    h1{
+        display: inline-block;
+        position: relative;
+    }
+}
+
+.titulo h1::after, .titulo h1::before{
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 2px;
+    background-color: map-get($color, c2);
+    top: 0.6em;
+}
+
+.titulo h1::before{
+    left: -220px;
+}
+
+.titulo h1::after{
+    right: -220px;
+}
+
+.tarjetas{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 450px;
+    height: 500px;
+    margin: 10px;
+
+    background-color: #333;
+    border-radius: 10px;
+    outline: 2px solid 
+    map-get($color, c2);
+    outline-offset: -8px;
+    box-shadow: 3px 3px 10px
+    rgba(0, 0, 0, .1);
+    position: relative; 
+    overflow: hidden; 
+}
+.card-image{
+    position: absolute;
+    inset: 0; 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .6; 
+    transition: transform .75s;
+}
+.card:hover .card-image{
+    transform: scale(1.15); 
+}
+
+.card-title{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    font-size: map-get($font, mediana);
+    text-align: map-get($font, cent);
+    color: map-get($color, c3);
+    text-shadow: 0 0 1px rgba(0, 0, 0, .5);
+    font-family: 'PT Serif', serif;
+}
