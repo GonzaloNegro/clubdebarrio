@@ -1,0 +1,105 @@
+.footer{
+    height: 300px;
+
+/*     background-color: map-get($color, c3); */
+    background-image: url(../Imagenes/productos3.jpg);
+    background-size: cover;
+    border-top: 1px solid #6b6b6b;
+}
+
+.footer__contenedor{
+    margin: 0 auto;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   	grid-template-rows: repeat(1, 250px); 
+}
+
+.footer__info{
+    width: auto;
+    height: auto;
+    margin-top: 40px;
+
+    justify-self: center;
+    align-self: flex-start;
+    color: map-get($color, c1);
+    grid-column: 1;
+    grid-row: 1;
+    h4{
+        font-family: map-get($font, letra);
+        text-decoration: underline;
+    }
+    a{
+        font-family: map-get($font, letra);
+        text-decoration: none;
+        color: map-get($color, c1);
+    }
+}
+
+.footer__info li{
+    height: 30px;
+    list-style: none;
+    text-align: left;
+}
+
+.footer__titulo{
+    width: auto;
+    height: auto;
+
+    justify-self: center;
+    align-self: center;
+    color: map-get($color, c1);;
+
+    grid-column: 2;
+    grid-row: 1;
+    h2{
+        font-family: map-get($font, letra);
+    }
+}
+
+.inst{
+    color: red;
+}
+
+.footer__redes{
+    width: auto;
+    height: auto;
+    margin-top: 30px;
+
+    justify-self: center;
+    align-self: flex-start;
+
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.fa-instagram{
+    color: white;
+    padding: 0px 10px;
+}
+
+
+.fa-whatsapp{
+    color: white;
+    padding: 0px 10px;
+}
+
+.fa-envelope{
+    color: white;
+    padding: 0px 10px;
+}
+
+i{
+    @include sizes(50px, 50px);
+}
+
+.tamaño{
+    @include sizes(50px, 50px);
+}
+
+@each $red, $color in $redes{
+    .fa-#{$red}{
+        color: $color;
+    }
+}

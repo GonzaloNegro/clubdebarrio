@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* map-get($color, c1); trae el color negro*/
 /*
 .box{
@@ -7,14 +8,6 @@
 * {
   margin: 0 auto; }
 
-/* .texto{
-    @include sizes(500px, 200px);
-    margin: 0 auto;
-    background-color: map-get($color, c2);
-    h1{
-        font-size: map-get($font, chica);
-    }
-} */
 a {
   font-family: 'PT Serif', serif; }
 
@@ -37,14 +30,14 @@ a {
   font-size: 50px;
   text-align: center;
   color: white;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif";
   text-shadow: 1px 1px 2px black; }
 
 .pri__titulo h2 {
   font-size: 24px;
   text-align: center;
   color: white;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif";
   text-shadow: 1px 1px 2px black; }
 
 .servicios {
@@ -59,7 +52,7 @@ a {
   text-align: center;
   color: #c49602;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
-  font-family: 'PT Serif', serif; }
+  font-family: "PT Serif"; }
   .titulo h1 {
     display: inline-block;
     position: relative; }
@@ -117,4 +110,251 @@ a {
   text-align: center;
   color: white;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
-  font-family: 'PT Serif', serif; }
+  font-family: "PT Serif"; }
+
+.footer {
+  height: 300px;
+  /*     background-color: map-get($color, c3); */
+  background-image: url(../Imagenes/productos3.jpg);
+  background-size: cover;
+  border-top: 1px solid #6b6b6b; }
+
+.footer__contenedor {
+  margin: 0 auto;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 250px); }
+
+.footer__info {
+  width: auto;
+  height: auto;
+  margin-top: 40px;
+  justify-self: center;
+  align-self: flex-start;
+  color: black;
+  grid-column: 1;
+  grid-row: 1; }
+  .footer__info h4 {
+    font-family: "PT Serif";
+    text-decoration: underline; }
+  .footer__info a {
+    font-family: "PT Serif";
+    text-decoration: none;
+    color: black; }
+
+.footer__info li {
+  height: 30px;
+  list-style: none;
+  text-align: left; }
+
+.footer__titulo {
+  width: auto;
+  height: auto;
+  justify-self: center;
+  align-self: center;
+  color: black;
+  grid-column: 2;
+  grid-row: 1; }
+  .footer__titulo h2 {
+    font-family: "PT Serif"; }
+
+.inst {
+  color: red; }
+
+.footer__redes {
+  width: auto;
+  height: auto;
+  margin-top: 30px;
+  justify-self: center;
+  align-self: flex-start;
+  grid-column: 3;
+  grid-row: 1; }
+
+.fa-instagram {
+  color: white;
+  padding: 0px 10px; }
+
+.fa-whatsapp {
+  color: white;
+  padding: 0px 10px; }
+
+.fa-envelope {
+  color: white;
+  padding: 0px 10px; }
+
+i {
+  width: 50px;
+  height: 50px; }
+
+.tamaño {
+  width: 50px;
+  height: 50px; }
+
+.fa-instagram {
+  color: #af00db; }
+
+.fa-whatsapp {
+  color: #00ff2a; }
+
+.fa-envelope {
+  color: #ff1616; }
+
+.bodylog {
+  background-image: url(../Imagenes/productos3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.login {
+  width: auto;
+  height: 600px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.login__texto {
+  width: 400px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .login__texto h1 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-family: "PT Serif";
+    text-shadow: 1px 1px 2px black; }
+  .login__texto h2 {
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    font-family: "PT Serif";
+    text-shadow: 1px 1px 2px black; }
+
+.login__acceso {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.contenedor {
+  width: 350px;
+  height: 500px;
+  background-color: white;
+  border-radius: 15px;
+  border: 1px solid #313131;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); }
+
+.contenedor__titulo {
+  width: 320px;
+  height: 100px;
+  margin-top: 10px;
+  background-image: url(../Imagenes/Logo.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.contenedor__datos {
+  width: 350px;
+  height: 250px;
+  margin-top: 20px; }
+
+.boton {
+  float: right;
+  padding: 10px;
+  margin-right: 5px; }
+
+.contenedor__pregunta {
+  width: 350px;
+  height: 50px;
+  margin-top: 20px; }
+  .contenedor__pregunta li {
+    list-style: none;
+    text-align: center; }
+    .contenedor__pregunta li a {
+      text-decoration: none; }
+
+.bodylog {
+  background-image: url(../Imagenes/productos3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.login {
+  width: auto;
+  height: 600px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.login__texto {
+  width: 400px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .login__texto h1 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-family: "PT Serif";
+    text-shadow: 1px 1px 2px black; }
+  .login__texto h2 {
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    font-family: "PT Serif";
+    text-shadow: 1px 1px 2px black; }
+
+.login__acceso {
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.contenedor {
+  width: 600px;
+  height: 400px;
+  background-color: white;
+  border-radius: 15px;
+  border: 1px solid #313131;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); }
+
+.contenedor__titulo {
+  width: 320px;
+  height: 100px;
+  margin-top: 10px;
+  background-image: url(../Imagenes/Logo.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.contenedor__datos {
+  width: 600px;
+  height: 230px;
+  margin-top: 20px; }
+
+.boton {
+  float: right;
+  padding: 10px;
+  margin-right: 5px; }
+
+.contenedor__pregunta {
+  width: 350px;
+  height: 20px; }
+  .contenedor__pregunta li {
+    list-style: none;
+    text-align: center; }
+    .contenedor__pregunta li a {
+      text-decoration: none; }

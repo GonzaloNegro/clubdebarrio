@@ -11,7 +11,7 @@
     text-align: map-get($font, cent);
     color: map-get($color, c2);
     text-shadow: 0 0 1px rgba(0, 0, 0, .5);
-    font-family: 'PT Serif', serif;
+    font-family: map-get($font, letra);
     h1{
         display: inline-block;
         position: relative;
@@ -79,5 +79,5 @@
     text-align: map-get($font, cent);
     color: map-get($color, c3);
     text-shadow: 0 0 1px rgba(0, 0, 0, .5);
-    font-family: 'PT Serif', serif;
+    font-family: map-get($font, letra);
 }

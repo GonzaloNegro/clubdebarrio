@@ -2,7 +2,8 @@ $font:(
     cent: center,
     grande: 50px,
     mediana: 24px,
-    chica: 18px
+    chica: 18px,
+    letra: 'PT Serif'
 );
 
 
@@ -19,8 +20,19 @@ $font:(
     height: $height;
 }
 
+@mixin imagen($width, $border){
+    width: $width;
+    border-radius: $border;
+}
+
 /*
 .box{
     @include sizes(500px, 200px)
 }
 */
+
+$redes:(
+    instagram: rgb(175, 0, 219),
+    whatsapp: rgb(0, 255, 42),
+    envelope: rgb(255, 22, 22)
+);

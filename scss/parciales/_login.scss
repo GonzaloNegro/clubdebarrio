@@ -1,0 +1,99 @@
+.bodylog{
+    background-image: url(../Imagenes/productos3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.login{
+    width: auto;
+    height: 600px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.login__texto{
+    width: 400px;
+
+    text-align: center;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-size: map-get($font, grande);
+        text-align: map-get($font, cent);;
+        color: map-get($color, c3);
+        font-family: map-get($font, letra);
+        text-shadow: 1px 1px 2px black;
+    }
+    h2{
+        font-size: map-get($font, mediana);
+        text-align: map-get($font, cent);;
+        color: map-get($color, c3);
+        font-family: map-get($font, letra);
+        text-shadow: 1px 1px 2px black;
+         }
+}
+
+.login__acceso{
+    width: 400px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    width: 350px;
+    height: 500px;
+
+    background-color: map-get($color, c3);
+    border-radius: 15px;
+    border: 1px solid rgb(49, 49, 49);
+    box-shadow: 3px 3px 10px
+    rgba(0, 0, 0, .1);
+}
+
+.contenedor__titulo{
+    width: 320px;
+    height: 100px;
+    margin-top: 10px;
+    background-image: url(../Imagenes/Logo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor__datos{
+    width: 350px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.boton{
+    float: right;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.contenedor__pregunta{
+    width: 350px;
+    height: 50px;
+    margin-top: 20px;
+    li{
+        list-style: none;
+        text-align: map-get($font, cent);
+        a{
+            text-decoration: none;
+        }
+    }
+}
