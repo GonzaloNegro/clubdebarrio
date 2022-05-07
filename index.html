@@ -14,7 +14,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a href="index.html" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none imagenh">
                     <img src="Imagenes/Logo.jpeg" height="50px" alt="logo">
@@ -28,21 +28,21 @@
                     <a href="#home" class="nav-link" aria-current="page">HOME</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">SOBRE NOSOTROS</a>
+                    <a class="nav-link" href="#nosotros">SOBRE NOSOTROS</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#servicios">SERVICIOS</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">TURNOS</a>
+                    <a class="nav-link" href="#turnos">TURNOS</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">UBICACIÓN</a>
+                    <a class="nav-link" href="#ubicacion">UBICACIÓN</a>
                   </li>
                 </ul>
                 <div class="col-md-3 text-end">
-                    <button type="button" class="btn btn-outline-primary me-2"><a href="login.html">Login</a></button>
-                    <button type="button" class="btn btn-primary">Registrarse</button>
+                    <button type="button" class="btn btn-outline-primary me-2 opc"><a href="login.html">Ingresar</a></button>
+                    <button type="button" class="btn btn-outline-primary me-2 opc"><a href="registro.html">Registrarse</a></button>
                 </div>
               </div>
             </div>
@@ -123,9 +123,19 @@
     <footer class="footer">
         <div class="footer__contenedor">
             <div class="footer__redes">
-                <a href="#"><i class="fa-brands fa-instagram fa-2x"></i></a>
-                <a href="#"><i class="fa-brands fa-whatsapp fa-2x"></i></a>
-                <a href="mailto:#"><i class="fa-solid fa-envelope fa-2x"></i></a>
+                <li class="nav-item dropdown link">
+                    <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-brands fa-instagram fa-2x"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item variacion" href="https://www.instagram.com/debarrioclubguemes/?hl=es-la">GÜEMES</a></li>
+                      <li><a class="dropdown-item variacion" href="https://www.instagram.com/debarrioclub/?hl=es-la">SABATTINI</a></li>
+
+                    </ul>
+                  </li>
+                <!-- <a href="https://www.instagram.com/debarrioclubguemes/?hl=es-la"><i class="fa-brands fa-instagram fa-2x"></i></a> -->
+                <!-- <a href="#"><i class="fa-brands fa-whatsapp fa-2x"></i></a>
+                <a href="mailto:#"><i class="fa-solid fa-envelope fa-2x"></i></a> -->
             </div>
             <div class="footer__titulo">
                 <h2>CLUB DE BARRIO</h2>

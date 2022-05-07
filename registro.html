@@ -13,41 +13,47 @@
     <link rel="stylesheet" href="css/estilos.css" type="text/css">
     <title>Login | Club de Barrio</title>
 </head>
-<body class="bodylog">
+<body class="bodylog2">
     <main>
         <section class="login">       
             <div class="login__texto">
                 <h1>CLUB DE BARRIO</h1>
                 <h2>PELUQUERIA & AMIGOS</h2>
             </div>
-            <div class="login__acceso" data-aos="zoom-in">
-                <div class="contenedor">
+            <div class="login__registro2" data-aos="zoom-in">
+                <div class="contenedor2">
                     <div class="contenedor__titulo"></div>
-                    <div class="contenedor__datos">
+                    <div class="contenedor__datos2">
                         <form action="">
                             
-							<div class="form-group row" style="margin: 10px; padding:5px;">
+							<div class="form-group row" style="margin: 10px;">
                                 <label for="nombre" class="col-form-label col-xl col-lg">Nombre:</label>
-                                <input type="text" name="nombre" id="nombre" placeholder="Nombre" class="form-control col-xl col-lg">
+                                <input type="text" name="nombre" id="nombre" placeholder="Nombre" required class="form-control col-xl col-lg">
+                            </div>
 
+                            <div class="form-group row" style="margin: 10px;">
                                 <label for="apellido" class="col-form-label col-xl col-lg">Apellido:</label>
-                                <input type="text" name="apellido" id="apellido" placeholder="Apellido" class="form-control col-xl col-lg">
+                                <input type="text" name="apellido" id="apellido" placeholder="Apellido" required class="form-control col-xl col-lg">
                             </div>
 
-                            <div class="form-group row" style="margin: 10px; padding:5px;">
-                                <label for="dni" class="col-form-label col-xl col-lg">Dni:</label>
-                                <input type="text" name="dni" id="dni" placeholder="Dni" class="form-control col-xl col-lg">
+                            <div class="form-group row" style="margin: 10px;">
+                                <label for="dni" class="col-form-label col-xl col-lg">Dni::</label>
+                                <input type="text" name="dni" id="dni" placeholder="DNI" required class="form-control col-xl col-lg">
+                            </div>
 
+                            <div class="form-group row" style="margin: 10px;">
                                 <label for="celular" class="col-form-label col-xl col-lg">Celular:</label>
-                                <input type="text" name="celular" id="celular" placeholder="Celular" class="form-control col-xl col-lg">
+                                <input type="text" name="celular" id="celular" placeholder="Celular" required class="form-control col-xl col-lg">
                             </div>
 
-                            <div class="form-group row" style="margin: 10px; padding:5px;">
+                            <div class="form-group row" style="margin: 10px;">
                                 <label for="correo" class="col-form-label col-xl col-lg">E-mail:</label>
-                                <input type="text" name="correo" id="correo" placeholder="Correo" class="form-control col-xl col-lg">
-                                
+                                <input type="text" name="correo" id="correo" placeholder="Correo" required class="form-control col-xl col-lg">
+                            </div>
+
+                            <div class="form-group row" style="margin: 10px;">
                                 <label for="contraseña" class="col-form-label col-xl col-lg">Contraseña:</label>
-                                <input type="password" name="contraseña" id="contraseña" placeholder="Contraseña" class="form-control col-xl col-lg">
+                                <input type="password" name="contraseña" id="contraseña" placeholder="Contraseña" required class="form-control col-xl col-lg">
                             </div>
 
                             <div class="boton" >
@@ -56,8 +62,8 @@
 
                         </form>
                     </div>
-                    <div class="contenedor__pregunta">
-                        <li><a href="login.html">Volver</a></li>
+                    <div class="contenedor__pregunta2">
+                        <li><a href="index.html">Volver</a></li>
                     </div>
                 </div>
             </div>

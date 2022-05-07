@@ -1,5 +1,5 @@
-.bodylog{
-    background-image: url(../Imagenes/productos3.jpg);
+.bodylog2{
+    background-image: url(../Imagenes/productos1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -44,7 +44,7 @@
          }
 }
 
-.login__acceso{
+.login__registro2{
     width: 600px;
 
     display: flex;
@@ -53,9 +53,9 @@
     align-items: center;
 }
 
-.contenedor{
+.contenedor2{
     width: 600px;
-    height: 400px;
+    height: auto;
 
     background-color: map-get($color, c3);
     border-radius: 15px;
@@ -73,9 +73,9 @@
     background-size: cover;
 }
 
-.contenedor__datos{
+.contenedor__datos2{
     width: 600px;
-    height: 230px;
+    height: auto;
     margin-top: 20px;
 }
 
@@ -85,9 +85,10 @@
     margin-right: 5px;
 }
 
-.contenedor__pregunta{
+.contenedor__pregunta2{
     width: 350px;
     height: 20px;
+    margin-top: 30px;
     li{
         list-style: none;
         text-align: map-get($font, cent);

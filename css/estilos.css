@@ -9,7 +9,11 @@
   margin: 0 auto; }
 
 a {
-  font-family: 'PT Serif', serif; }
+  font-family: 'PT Serif', serif;
+  text-decoration: none; }
+
+.opc :hover {
+  color: white; }
 
 .principal {
   width: 100%;
@@ -171,6 +175,9 @@ a {
   grid-column: 3;
   grid-row: 1; }
 
+.link {
+  list-style: none; }
+
 .fa-instagram {
   color: white;
   padding: 0px 10px; }
@@ -201,7 +208,7 @@ i {
   color: #ff1616; }
 
 .bodylog {
-  background-image: url(../Imagenes/productos3.jpg);
+  background-image: url(../Imagenes/productos1.jpg);
   background-repeat: no-repeat;
   background-size: cover; }
 
@@ -280,8 +287,8 @@ i {
     .contenedor__pregunta li a {
       text-decoration: none; }
 
-.bodylog {
-  background-image: url(../Imagenes/productos3.jpg);
+.bodylog2 {
+  background-image: url(../Imagenes/productos1.jpg);
   background-repeat: no-repeat;
   background-size: cover; }
 
@@ -317,16 +324,16 @@ i {
     font-family: "PT Serif";
     text-shadow: 1px 1px 2px black; }
 
-.login__acceso {
+.login__registro2 {
   width: 600px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center; }
 
-.contenedor {
+.contenedor2 {
   width: 600px;
-  height: 400px;
+  height: auto;
   background-color: white;
   border-radius: 15px;
   border: 1px solid #313131;
@@ -340,9 +347,9 @@ i {
   background-repeat: no-repeat;
   background-size: cover; }
 
-.contenedor__datos {
+.contenedor__datos2 {
   width: 600px;
-  height: 230px;
+  height: auto;
   margin-top: 20px; }
 
 .boton {
@@ -350,11 +357,12 @@ i {
   padding: 10px;
   margin-right: 5px; }
 
-.contenedor__pregunta {
+.contenedor__pregunta2 {
   width: 350px;
-  height: 20px; }
-  .contenedor__pregunta li {
+  height: 20px;
+  margin-top: 30px; }
+  .contenedor__pregunta2 li {
     list-style: none;
     text-align: center; }
-    .contenedor__pregunta li a {
+    .contenedor__pregunta2 li a {
       text-decoration: none; }
